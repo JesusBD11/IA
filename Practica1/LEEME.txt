@@ -1,0 +1,24 @@
+Manual de la aplicación.
+
+En la clase estado hay varios parámetros que permiten ejecutar el código con diferentes configuraciones.
+
+Determinar qué conjunto de operadores se quiere usar:
+	-CON_OP = 1/2
+
+Determinar el número de centros y de sensores:
+	-NUM_SENSORES = X
+	-NUM_CENTROS = Y
+
+Determinar la seed de los centros y sensores:
+	-SEED_C = N
+	-SEED_S = M
+
+
+Si queremos cambiar el generador de la solución inicial o el algoritmo de búsqueda, debemos hacerlo en el main.
+
+	-Estado estado = new Estado(Estado.GENERADOR(1/2); (Debemos seleccionar entre el 1 o el 2)
+
+	-Detrminar qué algoritmo de busqueda se usará:
+		-int algoritmoAUsar = Estado.H_CLIMBING/SA;
+	
+
